@@ -1,5 +1,0 @@
-simple
-is
-better
-than
-complex
