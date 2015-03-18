@@ -58,7 +58,7 @@ public class Pesan extends UnicastRemoteObject implements rmiinterface.rmiInterf
 
     @Override
     public ArrayList arlist(ArrayList<byte[]> byteFile, ArrayList<String> extFile) throws RemoteException, IOException {
-        ArrayList<byte []> hasilArray = new ArrayList<>();
+        /*
         for(int i=0; i<extFile.size(); i++){
                 InputStream in = new ByteArrayInputStream(byteFile.get(i));
                 BufferedImage image = ImageIO.read(in);
@@ -71,7 +71,8 @@ public class Pesan extends UnicastRemoteObject implements rmiinterface.rmiInterf
                 bos.flush();
                 imageByte = bos.toByteArray();
                 hasilArray.add(imageByte);
-            }
+            }*/
+        ArrayList<byte []> hasilArray = new ArrayList<>();
         return hasilArray;
     }
   
