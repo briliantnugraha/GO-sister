@@ -1,0 +1,21 @@
+Tugas 02 - Sistem Terdistribusi
+
+Soal 1:
+Buatlah sebuah aplikasi yang menggunakan arsitektur indirect communication yaitu publish-subscribe.
+Aplikasi yang dibuat bertugas untuk melakukan broadcast pesan ke klien. Pesan yang dikirimkan yaitu konversi mata uang Rupiah (IDR) ke Dolar Amerika (USD).
+Aplikasi ini harus menggunakan API dari pihak ketiga misalnya: 
+- https://openexchangerates.org/
+- http://www.currencyconverterapi.com/
+- http://jsonrates.com/
+- dll
+Topologi jaringan yang digunakan sama seperti pada Tugas 01. 
+
+
+Soal 2: 
+Buatlah sebuah aplikasi yang menggunakan arsitektur indirect communication yaitu message queue.
+Pekerjaan yang diselesaikan adalah melakukan konversi citra dari RGB ke grayscale. Simpanlah waktu komputasi untuk dua teknik yang dikerjakan (sama seperti Tugas 01). 
+Topologi jaringan yang digunakan sama seperti pada Tugas 01. 
+
+
+Middleware indirect communication yang bisa digunakan, baik publish-subscribe atau message queue, bisa dilihat pada http://queues.io.
+Jika ada pertanyaan silakan mengirim email ke studiawan@gmail.com
